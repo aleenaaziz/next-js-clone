@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'next/link'
-import Cart from '@/app/cart/page'
 
 const Navbar = () => {
   return (
