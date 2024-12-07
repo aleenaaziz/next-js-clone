@@ -1,5 +1,5 @@
 import { CardDetails } from "@/components/CardDetails";
-import Image from "next/image";
+
 
 export default function Home() {
   return (
@@ -27,7 +27,8 @@ export default function Home() {
        <h1 className="text-4xl font-semibold mt-8 mr-7 inline-flex">Flash Sales</h1>
        <div className=" text-4xl font-semibold  ml-40 grid grid-rows-3">
         
-       <div className=" text-sm mt-4"> Days &nbsp; &nbsp;&nbsp;: &nbsp;&nbsp; hours &nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp; Mins &nbsp;&nbsp;&nbsp;: &nbsp;&nbsp;&nbsp;Secs </div>
+       <div className=" text-sm mt-4"> Days  '&nbsp;&nbsp;': '&nbsp;&nbsp;' hours '&nbsp;&nbsp;&nbsp;':'&nbsp;&nbsp;&nbsp;' Mins 
+         '&nbsp;&nbsp;&nbsp;': '&nbsp;&nbsp;&nbsp;'Secs </div>
        
         <div className="-mt-1">03 : 23 : 19 : 52</div></div>
         </div>
