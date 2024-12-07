@@ -1,4 +1,3 @@
-import Card from "@/components/Card";
 import { CardDetails } from "@/components/CardDetails";
 import Image from "next/image";
 
